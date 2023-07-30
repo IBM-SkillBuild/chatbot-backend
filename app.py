@@ -4,6 +4,7 @@ import json
 from rivescript import RiveScript
 from fuzzywuzzy import fuzz
 from langdetect import detect
+from textblob import TextBlob
 
 
 app=Flask(__name__)
@@ -58,7 +59,9 @@ def chatbot(pregunta):
                 respuesta = str(mejor_respuesta) 
             else:
                 respuesta=bot.reply("localuser",user_input)
-                
+    if idioma=="en":
+      blob = TextBlob(respuesta)  
+      respuesta=blob.translate(to='en')           
     return jsonify(respuesta=respuesta,idioma=idioma)
 
 
