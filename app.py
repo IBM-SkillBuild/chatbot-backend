@@ -18,7 +18,7 @@ bot.sort_replies()
 
 @app.route("/")
 def saludo():
-    return jsonify({"version 1.1":"chatbot Cv-edu","hola":"hola"})
+    return jsonify({"version 1.1":"chatbot Cv-edu"})
 
 @app.route("/chatbot/<string:pregunta>",methods=['GET'])
 @cross_origin()
