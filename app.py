@@ -23,7 +23,36 @@ def saludo():
 @cross_origin()
 def chatbot(pregunta):
     user_input=str(pregunta)
-    respuesta=bot.reply("localuser",user_input)
+    
+    mejor_coincidencia=chatbot_data['datos'][0]['pregunta']
+    mejor_respuesta=chatbot_data['datos'][0]['respuesta']  
+    mejor_accion=chatbot_data['datos'][0]['accion'] 
+    mejor_ejecucion=chatbot_data['datos'][0]['path'] 
+    mejor_url=chatbot_data['datos'][0]['url'] 
+         
+       
+        
+    porcentaje_obtenido=0
+                                                  
+    for question in chatbot_data['datos']:
+        porcentaje_iterado=fuzz.token_sort_ratio(user_input,question['pregunta'])+\
+        fuzz.partial_ratio(user_input,question['respuesta'] ) 
+            
+           
+        if porcentaje_iterado>porcentaje_obtenido:
+            
+            mejor_coincidencia=question['pregunta']
+            mejor_respuesta=question['respuesta']
+            mejor_accion=question['accion']
+            mejor_ejecucion=question['path']
+            mejor_url=question['url']
+            mejor_seguridad=question['seguridad']
+            porcentaje_obtenido=porcentaje_iterado
+            if porcentaje_obtenido>90:
+                respuesta = str(mejor_respuesta) 
+            else:
+                respuesta=bot.reply("localuser",user_input)
+                
     return jsonify({"respuesta":respuesta})
 
 
