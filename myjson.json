@@ -20,7 +20,7 @@
     },
     {
       "pregunta": "Sabes hacer en programacion Python, Flask, FastApi, Django",
-      "respuesta": "<p>Puedo programar en python Scripts de consola, en Flask, FastApi o Django  -<a href=\"javascript:resolver('que sabes hacer en front end')\">- Ver Front-end</a></p>",
+      "respuesta": "<p>Puedo programar en python Scripts de consola, en Flask, FastApi o Django  -<a href=\"javascript:resolver('Me manejo en HTML, CSS y Javascript')\">- Ver Front-end</a></p>",
       "accion": "aleatorio de maquina ",
       "path": "",
       "url": "",
