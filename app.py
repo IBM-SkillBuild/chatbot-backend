@@ -3,8 +3,7 @@ from flask_cors import CORS, cross_origin
 import json
 from rivescript import RiveScript
 from fuzzywuzzy import fuzz
-from langdetect import detect
-from googletrans import Translator
+
 
 
 app=Flask(__name__)
@@ -26,11 +25,7 @@ def saludo():
 @cross_origin()
 def chatbot(pregunta):
     user_input=str(pregunta)
-    idioma=detect(user_input)
-    if user_input.lower()=="hello":
-      idioma="en"
-    if user_input.lower()=="help":
-      idioma="en"
+    
       
     mejor_coincidencia=chatbot_data['datos'][0]['pregunta']
     mejor_respuesta=chatbot_data['datos'][0]['respuesta']  
@@ -60,9 +55,8 @@ def chatbot(pregunta):
                 respuesta = str(mejor_respuesta) 
             else:
                 respuesta=bot.reply("localuser",user_input)
-    """ if idioma=="en":
-      respuesta=translator.translate(respuesta , dest ='en').text   """        
-    return jsonify(respuesta=respuesta,idioma=idioma)
+            
+    return jsonify(respuesta=respuesta,idioma="es")
 
 
 if __name__=="__main__":
