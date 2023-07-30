@@ -34,10 +34,10 @@
 + python 
 - <p>puedo programar en python Scripts de consola, en Flask, FastApi o django  -<a href="javascript:resolver('Me manejo en HTML, CSS y Javascript')">- Ver Front end</a><p>
 
-+ [*] front [*]
++ [*] front end[*]
 - <p>puedo programar en vanilla Javascript, React, Vue  -<a href="javascript:resolver('ques abes hacer en Back End')">- Ver Back end</a><p>
 
-+ [*] back [*]
++ [*] back end [*]
 - <p>Para el Back end Me manejo en Python, aunque me interesa seguir ampliando en otros lenguajes <a href="javascript:resolver('telefono')">- llamamé ahora !!</a><p>
 
 +  [*] ayuda [*]
@@ -86,6 +86,17 @@
 + [*] assembly [*]
 - <p>hice mi proyecto colaborativo del bootcamp de General Assembly en React llamando a diversas Apis -<a href="https://github.com/Api-Nasa/React-Web" target="_blank">-Ver proyecto en Github</a></p>
 
++ [*] experiencia [*]
+- <p>hMi experiencia laboral en este sector, ha sido escasa. 3 meses de practicas proyecto full-stack en mr.houston tech solutions y tres meses más formandome en FileMaker para su marca comercial Bitwok. Al tiempo,Tuve un encargo particular en Vue/Flask. el resto son proyectos personales como este mismo o entregas de proyectos en mis bootcamps -<a href="https://github.com/Api-Nasa/React-Web" target="_blank">-Ver proyecto en Github</a></p>
+
++ [*] trabajo [*]
+- <p>hMi experiencia laboral en este sector, ha sido escasa. 3 meses de practicas proyecto full-stack en mr.houston tech solutions y tres meses más formandome en FileMaker para su marca comercial Bitwok. Al tiempo,Tuve un encargo particular en Vue/Flask. el resto son proyectos personales como este mismo o entregas de proyectos en mis bootcamps -<a href="https://github.com/Api-Nasa/React-Web" target="_blank">-Ver proyecto en Github</a></p>
+
++ [*] empresa [*]
+- <p>hMi experiencia laboral en este sector, ha sido escasa. 3 meses de practicas proyecto full-stack en mr.houston tech solutions y tres meses más formandome en FileMaker para su marca comercial Bitwok. Al tiempo,Tuve un encargo particular en Vue/Flask. el resto son proyectos personales como este mismo o entregas de proyectos en mis bootcamps -<a href="https://github.com/Api-Nasa/React-Web" target="_blank">-Ver proyecto en Github</a></p>
+
++ [*] empresas [*]
+- <p>hMi experiencia laboral en este sector, ha sido escasa. 3 meses de practicas proyecto full-stack en mr.houston tech solutions y tres meses más formandome en FileMaker para su marca comercial Bitwok. Al tiempo,Tuve un encargo particular en Vue/Flask. el resto son proyectos personales como este mismo o entregas de proyectos en mis bootcamps -<a href="https://github.com/Api-Nasa/React-Web" target="_blank">-Ver proyecto en Github</a></p>
 
 + *
 - <p>Hola.<a href="javascript:resolver('ayuda')">Pulsa aqui para obtener ayuda</a></p>
