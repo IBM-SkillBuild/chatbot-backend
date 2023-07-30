@@ -18,14 +18,13 @@ bot.sort_replies()
 
 @app.route("/")
 def saludo():
-    idioma=detect("War doesn't show who's right, just who's left.")
-    return jsonify({"version 1.1":idioma})
+    return jsonify({"version 1.1":"chatbot Cv-edu","hola":"hola"})
 
 @app.route("/chatbot/<string:pregunta>",methods=['GET'])
 @cross_origin()
 def chatbot(pregunta):
     user_input=str(pregunta)
-    
+    idioma=detect(user_input)
     mejor_coincidencia=chatbot_data['datos'][0]['pregunta']
     mejor_respuesta=chatbot_data['datos'][0]['respuesta']  
     mejor_accion=chatbot_data['datos'][0]['accion'] 
@@ -55,7 +54,7 @@ def chatbot(pregunta):
             else:
                 respuesta=bot.reply("localuser",user_input)
                 
-    return jsonify({"respuesta":respuesta})
+    return jsonify({"respuesta":respuesta,"idioma":idioma})
 
 
 if __name__=="__main__":
