@@ -1,0 +1,59 @@
+
++ [*] hola [*]
+- <p>Hola, Soy un chatbot. Un chatbot diseñado por Eduardo Cabrera <a href="javascript:resolver('Nombre')">Aqui tienes mi teléfono</a></p>
+
++ [*] nombre [*]
+- <p>Mi nombre es Eduardo. Telefono 696 44 80 60  email: ecabrerablazquez@gmial.com</p>
+
++ [*] telefono [*]
+- <p>Mi nombre es Eduardo. Telefono 696 44 80 60 email: ecabrerablazquez@gmial.com</p>
+
++ [*] email [*]
+- <p>Mi nombre es Eduardo. Telefono 696 44 80 60 email: ecabrerablazquez@gmial.com</p>
+
++ [*] mail [*]
+- <p>Mi nombre es Eduardo. Telefono 696 44 80 60 email: ecabrerablazquez@gmial.com</p>
+
+
++ (buenos dias|buenas tardes|hola)
+- <p>Hola, que tal estás? quieres ver mi Cv online? <a href="https://cv-eduardo.github.io/" target="_blank">Click here to see my Web-CV --</a><a href="javascript:resolver('ayuda')">Pulsa aqui para ayuda</a><p>
+- <p>Hola, Soy el septimo de 11 hermanos. Me dedique a otros oficios hasta que pude y decidí hacer lo que me gusta --<a href="javascript:resolver('formacion')">Ver mi cambio disruptivo</a></p></p>
+- <p>Hola, Mi nombre es Eduardo. Telefono 696 44 80 60 email: ecabrerablazquez@gmial.com  -<a href="javascript:resolver('linkedin')">- Pulsa aqui para más información</a></p>
+
++ [*] linkedin [*]
+- <p>puedes ver mi perfíl de Linkedin <a href="https://www.linkedin.com/in/e-cabrera-blazquez/" target="_blank">Ir a mi perfil de linkedin -</a> <a href="javascript:resolver('ayuda')">- Aqui tienes más ayuda</a><p>
+
++ [*] python [*]
+- <p>puedo programar en python Scripts de consola, en Flask, FastApi o django <a href="javascript:resolver('front')">- Ver Front end</a><p>
+
++ python 
+- <p>puedo programar en python Scripts de consola, en Flask, FastApi o django <a href="javascript:resolver('front')">- Ver Front end</a><p>
+
++ [*] front [*]
+- <p>puedo programar en python Scripts de consola, en Flask, FastApi o django <a href="javascript:resolver('back')">- Ver Back end</a><p>
+
++ [*] back [*]
+- <p>Para el Back end Me manejo en Python, aunque me interesa seguir ampliando en otros lenguajes <a href="javascript:resolver('telefono')">- llamamé ahora !!</a><p>
+
++  [*] ayuda [*]
+- <p>Siempre puedes escribir tu pregunta como perfíl de linkedIn, certificados,etc... -<a href="javascript:resolver('ayuda')">- Pulsa aqui para más ayuda</a></p>
+- <p>puedes preguntar por mis fortalezas o debilidades <a href="javascript:resolver('fortalezas')">Pulsa aqui para ver fortalezas</a></p></p>
+- <p>puedes ver mi perfíl de Linkedin <a href="https://www.linkedin.com/in/e-cabrera-blazquez/" target="_blank">Ir a mi perfil de linkedin -</a><a href="javascript:resolver('ayuda')">- Aqui puedes obtener más ayuda</a><p>
+- <p>puedes ver algunos de mis certificados, o bootcamps. <a href="https://cv-eduardo.github.io/" target="_blank">pagina web-cv edu --</a> <a href="javascript:resolver('ayuda')">-- o pulsa aqui para ayuda</a><p>
+- <p>puedes usar palabras clave como estudios, formacion, bootcamps, titulos -<a href="javascript:resolver('formacion')">Pulsa aqui para conocer mis certificados</a></p>
+
++ (estudios|estudiaste|formacion|bootcamp|bootcamps|boot camp|boot camp|boot camps|titulos|titulo|certificado|certificados)
+- primero Estudie Vb.Net o visual basic.net,con certificado, otros titulos en desarrollo web, Bootcamp General assemby front end React, IBM full stack, y programación en python por la escuela de talento del ayuntamiento de Madrid
+
++  [*] fortalezas [*]
+- <p>Soy una persona muy resolutiva. Aplico la perseverancia con ilusión, y la determinación con imaginación. -<a href="javascript:resolver('debilidades')">-Ver mis debilidades</a></p>
+
++  [*] debilidades [*]
+- <p>Me falta rodaje en empresas y trabajo en equipo -<a href="javascript:resolver('formacion')">-Ver mi formación</a></p>
+
++ *
+- <p>Hola.<a href="javascript:resolver('ayuda')">Pulsa aqui para obtener ayuda</a></p>
+- <p>Hola.Recuerda que soy un Bot-Cv. pues preguntarme por estudios, certificados, formación, bootcamps -<a href="javascript:resolver('ayuda')">Pulsa aqui para ayuda</a></p>
+- <p>Hola. Debes Escribir cosas como Front end, back end, python, javascript-<a href="javascript:resolver('ayuda')">Pulsa aqui para ayuda</a></p>
+
+
