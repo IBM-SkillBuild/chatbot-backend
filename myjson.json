@@ -3,7 +3,7 @@
   "datos": [
     {
       "pregunta": "Como te llamas, quien eres",
-      "respuesta": "<p>Soy un chatbot. Un chatbot diseñado por Eduardo Cabrera</p>",
+      "respuesta": "<p>Soy un chatbot. Un chatbot diseñado por Eduardo Cabrera -<a href=\"javascript:resolver('datos de contacto')\">- Información sobre Eduardo</a></p>",
       "accion": "aleatorio de maquina ",
       "path": "",
       "url": "",
@@ -20,7 +20,7 @@
     },
     {
       "pregunta": "Sabes hacer en programacion Python, Flask, FastApi, Django",
-      "respuesta": "<p>Puedo programar en python Scripts de consola, en Flask, FastApi o Django</p>",
+      "respuesta": "<p>Puedo programar en python Scripts de consola, en Flask, FastApi o Django  -<a href=\"javascript:resolver('que sabes hacer en front end')\">- Ver Front-end</a></p>",
       "accion": "aleatorio de maquina ",
       "path": "",
       "url": "",
@@ -29,7 +29,7 @@
 
     {
       "pregunta": "sabes hacer en Front End",
-      "respuesta": "<p>Me manejo en HTML, CSS y Javascript y me atrevo en Bundles o Frameworks como React o Vue</p>",
+      "respuesta": "<p>Me manejo en HTML, CSS y Javascript y me atrevo en Bundles o Frameworks como React o Vue  -<a href=\"javascript:resolver('Primero Estudie Vb.Net')\">- Mi formacióno</a></p>",
       "accion": "aleatorio de maquina ",
       "path": "",
       "url": "",
@@ -37,7 +37,7 @@
     },
     {
       "pregunta": "sabes hacer en Back End",
-      "respuesta": "<p>Para el Back end Me manejo en Python, aunque me interesan otros lenguajes</p>",
+      "respuesta": "<p>Para el Back end Me manejo en Python, aunque me interesan otros lenguajes  -<a href=\"javascript:resolver('Programación orientada a objetos')\">- Ver POO</a></p>",
       "accion": "aleatorio de maquina ",
       "path": "",
       "url": "",
@@ -86,7 +86,7 @@
     },
     {
       "pregunta": "programacion orientada a objetos",
-      "respuesta": "<p>la programación orientada ss el paradigma más usado , las clases, sus atributos y metodos. La instancia de objetos. La herencia, la encapsulacion y la abstraccion</p>",
+      "respuesta": "<p>lAplico la programación orientada ya que es el paradigma más usado , las clases, sus atributos y metodos. La instancia de objetos. La herencia, la encapsulacion y la abstraccion  -<a href=\"javascript:resolver('programación python')\">- Lo aplico en python</a></p>",
       "accion": "aleatorio de maquina ",
       "path": "",
       "url": "",
