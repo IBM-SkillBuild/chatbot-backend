@@ -41,11 +41,11 @@
 - <p>Para el Back end Me manejo en Python, aunque me interesa seguir ampliando en otros lenguajes <a href="javascript:resolver('telefono')">- llamamé ahora !!</a><p>
 
 +  [*] ayuda [*]
-- <p>Siempre puedes escribir tu pregunta como perfíl de linkedIn, certificados,etc... -<a href="javascript:resolver('ayuda')">- Pulsa aqui para más ayuda</a></p>
+- <p>Siempre puedes escribir tu pregunta como perfíl de linkedIn, certificados, empresa, experiencia, etc... -<a href="javascript:resolver('ayuda')">- Pulsa aqui para más ayuda</a></p>
 - <p>puedes preguntar por mis fortalezas o debilidades <a href="javascript:resolver('fortalezas')">Pulsa aqui para ver fortalezas</a></p></p>
 - <p>puedes ver mi perfíl de Linkedin <a href="https://www.linkedin.com/in/e-cabrera-blazquez/" target="_blank">Ir a mi perfil de linkedin -</a><a href="javascript:resolver('ayuda')">- Aqui puedes obtener más ayuda</a><p>
-- <p>puedes ver algunos de mis certificados, o bootcamps. <a href="https://cv-eduardo.github.io/" target="_blank">pagina web-cv edu --</a> <a href="javascript:resolver('ayuda')">-- o pulsa aqui para ayuda</a><p>
-- <p>puedes usar palabras clave como estudios, formacion, bootcamps, titulos -<a href="javascript:resolver('formacion')">Pulsa aqui para conocer mis certificados</a></p>
+- <p>puedes ver algunos de mis certificados, y conocerme mejor. <a href="https://cv-eduardo.github.io/" target="_blank">pagina web-cv edu --</a> <a href="javascript:resolver('ayuda')">-- o pulsa aqui para ayuda</a><p>
+- <p>puedes usar palabras clave como estudios, formacion, bootcamps, titulos, proyectos, experiencia, empresas -<a href="javascript:resolver('formacion')">Pulsa aqui para conocer mis certificados</a></p>
 
 + (estudios|estudiaste|formacion|bootcamp|bootcamps|boot camp|boot camp|boot camps|titulos|titulo|certificado|certificados)
 - primero Estudie Vb.Net o visual basic.net,con certificado, otros titulos en desarrollo web, Bootcamp General assemby front end React, IBM full stack, y programación en python por la escuela de talento del ayuntamiento de Madrid
@@ -68,6 +68,9 @@
 + [*] proyecto [*]
 - <p>hice mi proyecto colaborativo del bootcamp de General Assembly en React llamando a diversas Apis -<a href="https://github.com/Api-Nasa/React-Web" target="_blank">-Ver proyecto en Github</a></p>
 
++ [*] proyectos [*]
+- <p>hice mi proyecto colaborativo del bootcamp de General Assembly en React llamando a diversas Apis -<a href="https://github.com/Api-Nasa/React-Web" target="_blank">-Ver proyecto en Github</a></p>
+s
 + [*] react [*]
 - <p>hice mi proyecto colaborativo del bootcamp de General Assembly en React llamando a diversas Apis -<a href="https://github.com/Api-Nasa/React-Web" target="_blank">-Ver proyecto en Github</a></p>
 
@@ -102,6 +105,12 @@
 - <p>Mi experiencia laboral en este sector, ha sido escasa. 3 meses de practicas proyecto full-stack en mr.houston tech solutions y tres meses más formandome en FileMaker para su marca comercial Bitwok. Al tiempo,Tuve un encargo particular en Vue/Flask. el resto son proyectos personales como este mismo o entregas de proyectos en mis bootcamps -<a href="https://github.com/Api-Nasa/React-Web" target="_blank">-Ver proyecto en Github</a></p>
 
 + [*] empresas [*]
+- <p>Mi experiencia laboral en este sector, ha sido escasa. 3 meses de practicas proyecto full-stack en mr.houston tech solutions y tres meses más formandome en FileMaker para su marca comercial Bitwok. Al tiempo,Tuve un encargo particular en Vue/Flask. el resto son proyectos personales como este mismo o entregas de proyectos en mis bootcamps -<a href="https://github.com/Api-Nasa/React-Web" target="_blank">-Ver proyecto en Github</a></p>
+
++ [*] Bitwok [*]
+- <p>Mi experiencia laboral en este sector, ha sido escasa. 3 meses de practicas proyecto full-stack en mr.houston tech solutions y tres meses más formandome en FileMaker para su marca comercial Bitwok. Al tiempo,Tuve un encargo particular en Vue/Flask. el resto son proyectos personales como este mismo o entregas de proyectos en mis bootcamps -<a href="https://github.com/Api-Nasa/React-Web" target="_blank">-Ver proyecto en Github</a></p>
+
++ [*] mrhouston[*]
 - <p>Mi experiencia laboral en este sector, ha sido escasa. 3 meses de practicas proyecto full-stack en mr.houston tech solutions y tres meses más formandome en FileMaker para su marca comercial Bitwok. Al tiempo,Tuve un encargo particular en Vue/Flask. el resto son proyectos personales como este mismo o entregas de proyectos en mis bootcamps -<a href="https://github.com/Api-Nasa/React-Web" target="_blank">-Ver proyecto en Github</a></p>
 
 + *
