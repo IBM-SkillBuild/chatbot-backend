@@ -61,7 +61,7 @@ def chatbot(pregunta):
                 respuesta=bot.reply("localuser",user_input)
     if idioma=="en":
       blob = TextBlob(respuesta)  
-      respuesta=blob.translate(to='en')           
+      respuesta=str(blob.translate(to='en') )          
     return jsonify(respuesta=respuesta,idioma=idioma)
 
 
