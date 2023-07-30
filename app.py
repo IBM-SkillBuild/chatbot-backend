@@ -25,6 +25,11 @@ def saludo():
 def chatbot(pregunta):
     user_input=str(pregunta)
     idioma=detect(user_input)
+    if user_input.lower()=="hello":
+      idioma="en"
+    if user_input.lower()=="help":
+      idioma="en"
+      
     mejor_coincidencia=chatbot_data['datos'][0]['pregunta']
     mejor_respuesta=chatbot_data['datos'][0]['respuesta']  
     mejor_accion=chatbot_data['datos'][0]['accion'] 
