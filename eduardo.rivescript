@@ -52,6 +52,15 @@
 +  [*] debilidades [*]
 - <p>Me falta rodaje en empresas y trabajo en equipo -<a href="javascript:resolver('formacion')">-Ver mi formación</a></p>
 
++ [*] contratar [*]
+- <p>Soy programador Junior sin experiencia empresarial, pero he pasado años aplicando conceptos y probando códigos.Tengo muchas ganas de demostrar que soy una buena opción <a href="javascript:resolver('telefono')">- llamamé ahora !!</a><p>
+
++ [*] contratarte [*]
+- <p>Soy programador Junior sin experiencia empresarial, pero he pasado años aplicando conceptos y probando códigos.Tengo muchas ganas de demostrar que soy una buena opción <a href="javascript:resolver('telefono')">- llamamé ahora !!</a><p>
+
++ [*] aportar [*]
+- <p>Soy programador Junior sin experiencia empresarial, pero he pasado años aplicando conceptos y probando códigos.Tengo muchas ganas de demostrar que soy una buena opción <a href="javascript:resolver('telefono')">- llamamé ahora !!</a><p>
+
 + *
 - <p>Hola.<a href="javascript:resolver('ayuda')">Pulsa aqui para obtener ayuda</a></p>
 - <p>Hola.Recuerda que soy un Bot-Cv. pues preguntarme por estudios, certificados, formación, bootcamps -<a href="javascript:resolver('ayuda')">Pulsa aqui para ayuda</a></p>
