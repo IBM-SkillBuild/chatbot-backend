@@ -4,12 +4,13 @@ import json
 from rivescript import RiveScript
 from fuzzywuzzy import fuzz
 from langdetect import detect
-from textblob import TextBlob
+from googletrans import Translator
 
 
 app=Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
+translator = Translator() 
 
 with open('myjson.json', 'r', encoding='utf-8') as f:
     chatbot_data = json.load(f)
@@ -60,8 +61,7 @@ def chatbot(pregunta):
             else:
                 respuesta=bot.reply("localuser",user_input)
     if idioma=="en":
-      blob = TextBlob(respuesta)  
-      respuesta=str(blob.translate(to='en') )          
+      respuesta=translator.translate(respuesta , dest ='en').text          
     return jsonify(respuesta=respuesta,idioma=idioma)
 
 
