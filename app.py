@@ -60,8 +60,8 @@ def chatbot(pregunta):
                 respuesta = str(mejor_respuesta) 
             else:
                 respuesta=bot.reply("localuser",user_input)
-    if idioma=="en":
-      respuesta=translator.translate(respuesta , dest ='en').text          
+    """ if idioma=="en":
+      respuesta=translator.translate(respuesta , dest ='en').text   """        
     return jsonify(respuesta=respuesta,idioma=idioma)
 
 
