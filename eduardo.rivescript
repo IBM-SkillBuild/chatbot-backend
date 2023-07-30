@@ -3,17 +3,17 @@
 - <p>Hola, Soy un chatbot. Un chatbot diseñado por Eduardo Cabrera <a href="javascript:resolver('ayuda')">Pulsa aqui para obtener ayuda</a></p>
 
 + [*] nombre [*]
-- <p>Mi nombre es Eduardo. Telefono 696 44 80 60  email: ecabrerablazquez@gmial.com  -<a href="javascript:resolver('datos de contacto')"- >Pulsa aqui para más datos</a></p>
+- <p>Mi nombre es Eduardo. Telefono 696 44 80 60  email: ecabrerablazquez@gmial.com  -<a href="javascript:resolver('Calle Luna 27')"- >Pulsa aqui para más datos</a></p>
 
 
 + [*] telefono [*]
-- <p>Mi nombre es Eduardo. Telefono 696 44 80 60 email: ecabrerablazquez@gmial.com  -<a href="javascript:resolver('datos de contacto')"- >Pulsa aqui para más datos</a></p>
+- <p>Mi nombre es Eduardo. Telefono 696 44 80 60 email: ecabrerablazquez@gmial.com  -<a href="javascript:resolver('Calle Luna 27')"- >Pulsa aqui para más datos</a></p>
 
 + [*] email [*]
-- <p>Mi nombre es Eduardo. Telefono 696 44 80 60 email: ecabrerablazquez@gmial.com  -<a href="javascript:resolver('datos de contacto')"- >Pulsa aqui para más datos</a></p>
+- <p>Mi nombre es Eduardo. Telefono 696 44 80 60 email: ecabrerablazquez@gmial.com  -<a href="javascript:resolver('Calle Luna 27')"- >Pulsa aqui para más datos</a></p>
 
 + [*] mail [*]
-- <p>Mi nombre es Eduardo. Telefono 696 44 80 60 email: ecabrerablazquez@gmial.com  -<a href="javascript:resolver('datos de contacto')"- >Pulsa aqui para más datos</a></p>
+- <p>Mi nombre es Eduardo. Telefono 696 44 80 60 email: ecabrerablazquez@gmial.com  -<a href="javascript:resolver('Calle Luna 27')"- >Pulsa aqui para más datos</a></p>
 
 
 + (buenos dias|buenas tardes|hola)
