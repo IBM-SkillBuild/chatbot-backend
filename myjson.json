@@ -29,7 +29,7 @@
 
     {
       "pregunta": "sabes hacer en Front End",
-      "respuesta": "<p>Me manejo en HTML, CSS y Javascript y me atrevo en Bundles o Frameworks como React o Vue  -<a href=\"javascript:resolver('Mi formación comenzó en Vb.Net')\">- Mi formación</a></p>",
+      "respuesta": "<p>Me manejo en HTML, CSS y Javascript y me atrevo en Bundles o Frameworks como React o Vue  -<a href=\"javascript:resolver('Formacion Bootcamps titulos certificados')\">- Mi formación</a></p>",
       "accion": "aleatorio de maquina ",
       "path": "",
       "url": "",
