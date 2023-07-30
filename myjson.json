@@ -29,7 +29,7 @@
 
     {
       "pregunta": "sabes hacer en Front End",
-      "respuesta": "<p>Me manejo en HTML, CSS y Javascript y me atrevo en Bundles o Frameworks como React o Vue  -<a href=\"javascript:resolver('Primero Estudie Vb.Net')\">- Mi formacióno</a></p>",
+      "respuesta": "<p>Me manejo en HTML, CSS y Javascript y me atrevo en Bundles o Frameworks como React o Vue  -<a href=\"javascript:resolver('Mi formación comenzó en Vb.Net')\">- Mi formación</a></p>",
       "accion": "aleatorio de maquina ",
       "path": "",
       "url": "",
@@ -54,7 +54,7 @@
     },
     {
       "pregunta": "Formacion Bootcamps titulos certificados",
-      "respuesta": "<p>Mi formación comenzo en Vb.Net o visual basic.net con certificado, otros titulos en desarrollo web, Bootcamp General assemby front end React, IBM full stack, y programación en python por la escuela de talento del ayuntamiento de Madrid</p>",
+      "respuesta": "<p>Mi formación comenzó en Vb.Net o visual basic.net con certificado, otros titulos en desarrollo web, Bootcamp General assemby front end React, IBM full stack, y programación en python por la escuela de talento del ayuntamiento de Madrid -<a href=\"https://cv-eduardo.github.io/\" target=\"_blank\">- Click here to see my Web-CV --</a></p>",
       "accion": "aleatorio de maquina ",
       "path": "",
       "url": "",
