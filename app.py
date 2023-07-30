@@ -54,7 +54,7 @@ def chatbot(pregunta):
             else:
                 respuesta=bot.reply("localuser",user_input)
                 
-    return jsonify({"respuesta":respuesta,"idioma":idioma})
+    return jsonify({"respuesta":respuesta},{"idioma":idioma})
 
 
 if __name__=="__main__":
