@@ -25,10 +25,10 @@
 - <p>puedes ver mi perfíl de Linkedin <a href="https://www.linkedin.com/in/e-cabrera-blazquez/" target="_blank">Ir a mi perfil de linkedin -</a> <a href="javascript:resolver('ayuda')">- Aqui tienes más ayuda</a><p>
 
 + [*] python [*]
-- <p>puedo programar en python Scripts de consola, en Flask, FastApi o django <a href="javascript:resolver('que sabes hacer en Front End')">- Ver Front end</a><p>
+- <p>puedo programar en python Scripts de consola, en Flask, FastApi o django <a href="javascript:resolver('Me manejo en HTML, CSS y Javascript')">- Ver Front end</a><p>
 
 + python 
-- <p>puedo programar en python Scripts de consola, en Flask, FastApi o django  -<a href="javascript:resolver('que sabes hacer en Front End')">- Ver Front end</a><p>
+- <p>puedo programar en python Scripts de consola, en Flask, FastApi o django  -<a href="javascript:resolver('Me manejo en HTML, CSS y Javascript')">- Ver Front end</a><p>
 
 + [*] front [*]
 - <p>puedo programar en vanilla Javascript, React, Vue  -<a href="javascript:resolver('ques abes hacer en Back End')">- Ver Back end</a><p>
