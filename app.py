@@ -3,6 +3,7 @@ from flask_cors import CORS, cross_origin
 import json
 from rivescript import RiveScript
 from fuzzywuzzy import fuzz
+from langdetect import detect
 
 
 app=Flask(__name__)
@@ -17,7 +18,8 @@ bot.sort_replies()
 
 @app.route("/")
 def saludo():
-    return jsonify({"version 1.1":"chatbot Cv-edu"})
+    idioma=detect("War doesn't show who's right, just who's left.")
+    return jsonify({"version 1.1":idioma})
 
 @app.route("/chatbot/<string:pregunta>",methods=['GET'])
 @cross_origin()
