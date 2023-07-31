@@ -9,13 +9,9 @@ from fuzzywuzzy import fuzz
 app=Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
-translator = Translator() 
 
-with open('myjson.json', 'r', encoding='utf-8') as f:
-    chatbot_data = json.load(f)
-bot=RiveScript()    
-bot.load_file('eduardo.rivescript')
-bot.sort_replies()
+
+
 
 @app.route("/")
 def saludo():
@@ -24,6 +20,11 @@ def saludo():
 @app.route("/chatbot/<string:pregunta>",methods=['GET'])
 @cross_origin()
 def chatbot(pregunta):
+    with open('myjson.json', 'r', encoding='utf-8') as f:
+         chatbot_data = json.load(f)
+    bot=RiveScript()    
+    bot.load_file('eduardo.rivescript')
+    bot.sort_replies()
     user_input=str(pregunta)
     
       
