@@ -99,6 +99,14 @@
       "path": "",
       "url": "",
       "seguridad": "admin"
+    },
+    {
+      "pregunta": "porque duraste poco en tu anterior trabajo",
+      "respuesta": "<p>Mi trabajo anterior fue una apuesta formativa de tres meses para programar soluciones filemaker desde conocimiento cero. Al mismo tirmpo que fue mi primera relación laboral en tecnología con lo que supone de esfuerzo en integración y preparación -<a href=\"javascript:resolver('empresas')\">- Ver más sobre mi experiencia</a></p>",
+      "accion": "aleatorio de maquina ",
+      "path": "",
+      "url": "",
+      "seguridad": "admin"
     }
   ]
 }
