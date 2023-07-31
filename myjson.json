@@ -3,7 +3,7 @@
   "datos": [
     {
       "pregunta": "Como te llamas, quien eres",
-      "respuesta": "<p>Soy un chatbot. Un chatbot diseñado por Eduardo Cabrera -<a href=\"javascript:resolver('Villanueva de la cañada')\">- Información sobre Eduardo</a></p>",
+      "respuesta": "<p>Soy un chatbot. Un chatbot diseñado por Eduardo Cabrera -<a href=\"javascript:resolver('mi nombre es Eduardo')\">- Información sobre Eduardo</a></p>",
       "accion": "aleatorio de maquina ",
       "path": "",
       "url": "",
@@ -94,7 +94,7 @@
     },
       {
       "pregunta": "trabajo presencial tele trabajo",
-      "respuesta": "<p>Mi prioridad es Tele Trabajo. Actualmente vivo en Villanueva de la Cañada (Madrid). Mi experiencia es que el transporte para realizar trabajo presencial tiene un impacto negativo y es poco flexible -<a href=\"javascript:resolver('telefono')\">- llamamé ahora !!</a></p>",
+      "respuesta": "<p>Mi prioridad es Tele Trabajo. Actualmente vivo en Villanueva de la Cañada (Madrid). Mi experiencia es que el transporte para realizar trabajo presencial tiene un impacto negativo y es poco flexible -<a href=\"javascript:resolver('tel: 696 44 80 60')\">- llamamé ahora !!</a></p>",
       "accion": "aleatorio de maquina ",
       "path": "",
       "url": "",
