@@ -91,6 +91,14 @@
       "path": "",
       "url": "",
       "seguridad": "admin"
+    },
+      {
+      "pregunta": "trabajo presencial tele trabajo",
+      "respuesta": "<p>Mi prioridad es Tele Trabajo. Actualmente vivo en Villanueva de la Cañada (Madrid). Mi experiencia es que el transporte para realizar trabajo presencial tiene un impacto negativo y es poco flexible -<a href=\"javascript:resolver('telefono')\">- llamamé ahora !!</a></p>",
+      "accion": "aleatorio de maquina ",
+      "path": "",
+      "url": "",
+      "seguridad": "admin"
     }
   ]
 }

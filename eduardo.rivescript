@@ -113,8 +113,11 @@ s
 + [*] mrhouston[*]
 - <p>Mi experiencia laboral en este sector, ha sido escasa. 3 meses de practicas proyecto full-stack en mr.houston tech solutions y tres meses más formandome en FileMaker para su marca comercial Bitwok. Al tiempo,Tuve un encargo particular en Vue/Flask. el resto son proyectos personales como este mismo o entregas de proyectos en mis bootcamps -<a href="https://github.com/Api-Nasa/React-Web" target="_blank">-Ver proyecto en Github</a></p>
 
++ [*] tele [*]
+- <p>Mi prioridad es Tele Trabajo. Actualmente vivo en Villanueva de la Cañada (Madrid). Mi experiencia es que el transporte para realizar trabajo presencial tiene un impacto negativo y es poco flexible -<a href="https://github.com/Api-Nasa/React-Web" target="_blank">-Ver proyecto en Github</a></p>
+
 + *
-- <p>Hola.<a href="javascript:resolver('ayuda')">Pulsa aqui para obtener ayuda</a></p>
+- <p>Hola. Puedes preguntar por github, contacto, linkedin<a href="javascript:resolver('ayuda')">Pulsa aqui para obtener más ayuda</a></p>
 - <p>Hola.Recuerda que soy un Bot-Cv. pues preguntarme por estudios, certificados, formación, bootcamps -<a href="javascript:resolver('ayuda')">Pulsa aqui para ayuda</a></p>
 - <p>Hola. Debes Escribir cosas como Front end, back end, python, javascript-<a href="javascript:resolver('ayuda')">Pulsa aqui para ayuda</a></p>
 
