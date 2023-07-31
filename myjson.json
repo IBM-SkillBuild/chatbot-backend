@@ -94,7 +94,7 @@
     },
       {
       "pregunta": "trabajo presencial tele trabajo",
-      "respuesta": "<p>Mi prioridad es Tele Trabajo. Actualmente vivo en Villanueva de la Cañada (Madrid). Mi experiencia es que el transporte para realizar trabajo presencial tiene un impacto negativo y es poco flexible -<a href=\"javascript:resolver('tel: 696 44 80 60')\">- llamamé ahora !!</a></p>",
+      "respuesta": "<p>Mi prioridad es Tele Trabajo. Actualmente vivo en Villanueva de la Cañada (Madrid). Mi experiencia es que el transporte para realizar trabajo presencial tiene un impacto negativo y es poco flexible -<a href=\"javascript:resolver('empresas')\">- Ver más sobre mi experiencia</a></p>",
       "accion": "aleatorio de maquina ",
       "path": "",
       "url": "",
