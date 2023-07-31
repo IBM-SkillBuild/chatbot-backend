@@ -3,7 +3,7 @@
   "datos": [
     {
       "pregunta": "Como te llamas, quien eres",
-      "respuesta": "<p>Soy un chatbot. Un chatbot diseñado por Eduardo Cabrera -<a href=\"javascript:resolver('mi nombre es Eduardo')\">- Información sobre Eduardo</a></p>",
+      "respuesta": "<p>Soy un chatbot. Un chatbot diseñado por Eduardo Cabrera -<a href=\"javascript:resolver('nombre')\">- Información sobre Eduardo</a></p>",
       "accion": "aleatorio de maquina ",
       "path": "",
       "url": "",
