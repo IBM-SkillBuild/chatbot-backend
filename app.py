@@ -1,4 +1,4 @@
-from flask import Flask,jsonify,send_file
+from flask import Flask,jsonify,send_file,make_response
 from flask_cors import CORS, cross_origin
 import json
 from rivescript import RiveScript
@@ -23,8 +23,8 @@ def saludo():
 def get_foto_female():
     # URL de la API
     num_foto = random.randint(1, 99)
-    url = f'https://randomuser.me/api/portraits/med/women/{num_foto}.jpg' #
-   
+    url = f'https://randomuser.me/api/portraits/med/women/{num_foto}.jpg'
+
     # Hacer la solicitud GET
     response = requests.get(url)
 
@@ -33,17 +33,27 @@ def get_foto_female():
         # Crear un archivo en memoria
         img = BytesIO(response.content)
         img.seek(0)
-        return send_file(img, mimetype='image/jpeg')
+        
+        # Crear una respuesta personalizada para añadir los encabezados
+        response = make_response(send_file(img, mimetype='image/jpeg'))
+        response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0'
+        response.headers['Pragma'] = 'no-cache'
+        response.headers['Expires'] = '0'
+        return response
     else:
         filepath = os.path.join(os.getcwd(), 'foto-mujer.jpeg')
-        return send_file(filepath, mimetype='image/jpeg')
+        response = make_response(send_file(filepath, mimetype='image/jpeg'))
+        response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0'
+        response.headers['Pragma'] = 'no-cache'
+        response.headers['Expires'] = '0'
+        return response
 
 @app.route('/foto-hombre')
 def get_foto_male():
     # URL de la API
     num_foto = random.randint(1, 100)
-    url = f'https://randomuser.me/api/portraits/med/men/{num_foto}.jpg' #
-   
+    url = f'https://randomuser.me/api/portraits/med/men/{num_foto}.jpg'
+
     # Hacer la solicitud GET
     response = requests.get(url)
 
@@ -52,10 +62,20 @@ def get_foto_male():
         # Crear un archivo en memoria
         img = BytesIO(response.content)
         img.seek(0)
-        return send_file(img, mimetype='image/jpeg')
+        
+        # Crear una respuesta personalizada para añadir los encabezados
+        response = make_response(send_file(img, mimetype='image/jpeg'))
+        response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0'
+        response.headers['Pragma'] = 'no-cache'
+        response.headers['Expires'] = '0'
+        return response
     else:
-       filepath = os.path.join(os.getcwd(), 'foto-hombre.jpeg')
-       return send_file(filepath, mimetype='image/jpeg')   
+        filepath = os.path.join(os.getcwd(), 'foto-hombre.jpeg')
+        response = make_response(send_file(filepath, mimetype='image/jpeg'))
+        response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0'
+        response.headers['Pragma'] = 'no-cache'
+        response.headers['Expires'] = '0'
+        return 
 
 
 
