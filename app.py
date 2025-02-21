@@ -1,4 +1,6 @@
-from flask import Flask,jsonify,send_file,make_response
+from flask import Flask,jsonify,send_file,make_response 
+from flask import render_template
+
 from flask_cors import CORS, cross_origin
 import json
 from rivescript import RiveScript
@@ -18,6 +20,11 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @app.route("/")
 def saludo():
     return jsonify({"version 1.1":"utilidades-edu"})
+
+
+@app.route("/doc")
+def index():
+   return render_template("/api.html")
 
 @app.route('/foto-mujer')
 def get_foto_female():
@@ -76,6 +83,17 @@ def get_foto_male():
         response.headers['Pragma'] = 'no-cache'
         response.headers['Expires'] = '0'
         return 
+    
+@app.route('/widget-hora-madrid')
+def widget():
+    return """
+    <table>
+    <tr><td style="text-align: center;"><canvas id="canvas_tt67b8c1c981673" width="175" height="175"></canvas></td></tr>
+    <tr><td style="text-align: center; font-weight: bold"><a href="" style="text-decoration: none" class="clock24" id="tz24-1740161481-c1141-eyJzaXplIjoiMTc1IiwiYmdjb2xvciI6IjAwOTlGRiIsImxhbmciOiJlcyIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NjdiOGMxYzk4MTY3MyJ9" title="Madrid Hora" target="_blank" rel="nofollow"></a></td></tr>
+</table>
+<script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
+  
+    """
 
 
 
@@ -122,16 +140,7 @@ def chatbot(pregunta):
     return jsonify(respuesta=respuesta,idioma="es")
 
 
-@app.route('/widget-hora-madrid')
-def widget():
-    return """
-    <table>
-    <tr><td style="text-align: center;"><canvas id="canvas_tt67b8c1c981673" width="175" height="175"></canvas></td></tr>
-    <tr><td style="text-align: center; font-weight: bold"><a href="" style="text-decoration: none" class="clock24" id="tz24-1740161481-c1141-eyJzaXplIjoiMTc1IiwiYmdjb2xvciI6IjAwOTlGRiIsImxhbmciOiJlcyIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NjdiOGMxYzk4MTY3MyJ9" title="Madrid Hora" target="_blank" rel="nofollow"></a></td></tr>
-</table>
-<script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
-  
-    """
+
 
 
 if __name__=="__main__":

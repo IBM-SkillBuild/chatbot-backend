@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentación de API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        a{
+            text-decoration: none;
+            color: #ac6c18;
+            margin-bottom: 2em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #444;
+        }
+        .code-box {
+            background: #282c34;
+            color: #abb2bf;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: "Courier New", monospace;
+            overflow-x: auto;
+        }
+        .code-box-peque {
+            background: #282c34;
+            color: #abb2bf;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: "Courier New", monospace;
+            overflow-x: auto;
+            margin-bottom: 2em;
+        }
+        .code-box pre {
+            margin: 0;
+        }
+        .run-button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .run-button:hover {
+            background: #218838;
+        }
+        .output-box {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f1f1f1;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .explanation {
+            margin-top: 20px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Documentación de API</h1>
+        <div class="code-box-peque">
+             <h2>ruta foto user random</h2>
+             <a href="https://chatbot-back-o14j.onrender.com/foto-mujer">https://chatbot-back-o14j.onrender.com/foto-mujer</a>
+             <a href="https://chatbot-back-o14j.onrender.com/foto-hombre">https://chatbot-back-o14j.onrender.com/foto-hombre</a>
+
+            </div>
+        <div class="code-box">
+           
+            <pre><code id="code">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Hola Mundochulo&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hola mundochulo&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+            </code></pre>
+        </div>
+        <button class="run-button" onclick="runCode()">Run HTML</button>
+        <div class="output-box" id="output-box">
+            <!-- Aquí se mostrará el resultado del código ejecutado -->
+        </div>
+        <div class="explanation">
+            <h2>Explicación</h2>
+            <p>
+                Este es un ejemplo de cómo documentar una API o un fragmento de código. El cuadro superior muestra el código HTML que se puede ejecutar. Al hacer clic en el botón "Run HTML", el código se ejecuta y el resultado se muestra en el cuadro de salida.
+            </p>
+            <p>
+                El código HTML mostrado es un ejemplo básico que imprime "Hola mundochulo" en la página. Puedes modificar el código en el cuadro y ejecutarlo nuevamente para ver los cambios.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function runCode() {
+            const code = document.getElementById('code').innerText;
+            const outputBox = document.getElementById('output-box');
+            outputBox.innerHTML = code; // Ejecuta el código HTML
+        }
+    </script>
+</body>
+</html>
