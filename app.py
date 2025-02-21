@@ -127,7 +127,7 @@ def widget():
     return """
     <table>
     <tr><td style="text-align: center;"><canvas id="canvas_tt67b8c1c981673" width="175" height="175"></canvas></td></tr>
-    <tr><td style="text-align: center; font-weight: bold"><a href="" style="text-decoration: none" class="clock24" id="tz24-1740161481-c1141-eyJzaXplIjoiMTc1IiwiYmdjb2xvciI6IjAwOTlGRiIsImxhbmciOiJlcyIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NjdiOGMxYzk4MTY3MyJ9" title="Madrid Hora" target="_blank" rel="nofollow">Qué hora es Madrid</a></td></tr>
+    <tr><td style="text-align: center; font-weight: bold"><a href="" style="text-decoration: none" class="clock24" id="tz24-1740161481-c1141-eyJzaXplIjoiMTc1IiwiYmdjb2xvciI6IjAwOTlGRiIsImxhbmciOiJlcyIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NjdiOGMxYzk4MTY3MyJ9" title="Madrid Hora" target="_blank" rel="nofollow"></a></td></tr>
 </table>
 <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
   
