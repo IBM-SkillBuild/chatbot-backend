@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <img src="http://127.0.0.1:4000/foto-mujer" alt="">
+    <div style="display: grid; place-items: center; height: 100vh"
+    hx-get="https://chatbot-back-o14j.onrender.com/widget-hora-madrid" hx-trigger="load" hx-swap="innerHTML">
+    <script src="https://unpkg.com/htmx.org"></script>
+   </div>
+  
 </body>
 </html>
+
+

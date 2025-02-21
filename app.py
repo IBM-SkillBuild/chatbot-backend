@@ -122,6 +122,16 @@ def chatbot(pregunta):
     return jsonify(respuesta=respuesta,idioma="es")
 
 
+@app.route('/widget-hora-madrid')
+def widget():
+    return """
+    <table>
+    <tr><td style="text-align: center;"><canvas id="canvas_tt67b8c1c981673" width="175" height="175"></canvas></td></tr>
+</table>
+<script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
+    """
+
+
 if __name__=="__main__":
     app.run(debug=True,port=4000)
     
