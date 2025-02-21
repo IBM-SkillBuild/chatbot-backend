@@ -17,7 +17,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route("/")
 def saludo():
-    return jsonify({"version 1.1":"chatbot Cv-edu"})
+    return jsonify({"version 1.1":"utilidades-edu"})
 
 @app.route('/foto-mujer')
 def get_foto_female():
