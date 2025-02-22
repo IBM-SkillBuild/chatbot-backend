@@ -13,8 +13,13 @@
         }
         a{
             text-decoration: none;
-            color: #ac6c18;
+            color: #16eead;
             margin-bottom: 2em;
+            font-size: 12px;
+            display: block;
+        }
+        a:hover{
+            text-decoration: underline;
         }
         .container {
             max-width: 800px;
@@ -72,54 +77,83 @@
             font-size: 14px;
             line-height: 1.6;
         }
+        img{
+            border-radius: 50%;
+            text-align: center;
+            width: 80px;
+        }
+        footer {
+            background-color: #6b6a6a; /* Color de fondo del footer */
+            color: #fff; /* Color del texto */
+            text-align: center; /* Centra el texto horizontalmente */
+            padding: 1px 0; /* Espaciado interno (arriba/abajo) */
+            margin-top: auto; /* Empuja el footer hacia abajo */
+            border-radius: 5px;
+            max-width: 800px;
+            margin: 0 auto;
+            margin-top: 4em;
+         
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Documentación de API</h1>
         <div class="code-box-peque">
-             <h2>ruta foto user random</h2>
+             <h2>ruta foto user random (mujer y hombre)</h2>
              <a href="https://chatbot-back-o14j.onrender.com/foto-mujer">https://chatbot-back-o14j.onrender.com/foto-mujer</a>
              <a href="https://chatbot-back-o14j.onrender.com/foto-hombre">https://chatbot-back-o14j.onrender.com/foto-hombre</a>
 
             </div>
         <div class="code-box">
            
-            <pre><code id="code">
+            <pre><code id="fotos">
+<span style="color: #16eead">
+&lt;!------------------------ MODO DE USO EN HTML foto random mujer ------------------&gt;  </span>
 &lt;!DOCTYPE html&gt;
 &lt;html lang="es"&gt;
 &lt;head&gt;
     &lt;meta charset="UTF-8"&gt;
     &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;title&gt;Hola Mundochulo&lt;/title&gt;
+    &lt;title&gt;Api Edu&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-    &lt;h1&gt;Hola mundochulo&lt;/h1&gt;
+&lt;div style="display: flex; flex-direction:column;justify-content: center;align-items:center"&gt;
+  
+    <span style="color: #16eead">
+        &lt;img src="https://chatbot-back-o14j.onrender.com/foto-mujer" alt=""&gt;
+    </span>
+    
+    &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
             </code></pre>
         </div>
-        <button class="run-button" onclick="runCode()">Run HTML</button>
+        <button class="run-button" onclick="runCode('fotos')">Run HTML</button>
         <div class="output-box" id="output-box">
             <!-- Aquí se mostrará el resultado del código ejecutado -->
         </div>
-        <div class="explanation">
-            <h2>Explicación</h2>
-            <p>
-                Este es un ejemplo de cómo documentar una API o un fragmento de código. El cuadro superior muestra el código HTML que se puede ejecutar. Al hacer clic en el botón "Run HTML", el código se ejecuta y el resultado se muestra en el cuadro de salida.
-            </p>
-            <p>
-                El código HTML mostrado es un ejemplo básico que imprime "Hola mundochulo" en la página. Puedes modificar el código en el cuadro y ejecutarlo nuevamente para ver los cambios.
-            </p>
-        </div>
+       
     </div>
 
+    
+    <script src="https://cdn.jsdelivr.net/npm/fluidscroll@2.0.0" integrity="sha384-ZvfwaJZFftLPOaPS13spccPYdWRcrfz/GDgUYAf7b6I2OBXY74KiAC6WVg0XF3Qq" crossorigin="anonymous"></script>
     <script>
-        function runCode() {
-            const code = document.getElementById('code').innerText;
+        function runCode(id) {
+            fluidScroll({yPos: '+40%'});
+            const code = document.getElementById(id).innerText;
             const outputBox = document.getElementById('output-box');
             outputBox.innerHTML = code; // Ejecuta el código HTML
+           
+            
         }
+
+
+
+        
     </script>
+    <footer id="footer">
+        <p>&copy; 2025 Api Edu. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
